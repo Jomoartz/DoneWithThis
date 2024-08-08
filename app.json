@@ -3,7 +3,7 @@
     "name": "DoneWithThis",
     "slug": "DoneWithThis",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "default",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
@@ -22,6 +22,18 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "owner": "jomocode",
+    "extra": {
+      "eas": {
+        "projectId": "437b9565-8870-4ede-a00f-f1b73874ce4f"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/437b9565-8870-4ede-a00f-f1b73874ce4f"
     }
   }
 }
